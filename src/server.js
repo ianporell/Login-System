@@ -26,11 +26,11 @@ app.post('/login/', upload.none(), async (req, res) => {
             res.redirect('/success');
         }
         else {
-
+            //password is incorrect
         }
     }
     else {
-
+        //username is incorrect
     }
 });
 
