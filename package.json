@@ -1,0 +1,22 @@
+{
+  "name": "login-system",
+  "version": "1.0.0",
+  "description": "A login system using a MongoDB to store account info",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "runDev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "login-system"
+  },
+  "author": "Ian",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
