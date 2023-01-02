@@ -20,7 +20,7 @@ for (const page of fs.readdirSync(path.join(__dirname, 'pages/'))) {
 app.post('/login/', upload.none(), async (req, res) => {
     const AccountModel = require('./moongose_models/Account');
 
-    const account = await AccountModel.findOne({ username: req.body.username});
+    const account = await AccountModel.findOne({ username: req.body.username });
     if (account) {
         if (account.password = req.body.password) {
             res.redirect('/success');
